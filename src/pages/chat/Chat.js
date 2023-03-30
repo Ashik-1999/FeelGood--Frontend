@@ -66,7 +66,7 @@ function Chat() {
    
     
     useEffect(()=>{
-        socket.current = io("ws://localhost:8900");
+        socket.current = io.connect("ws://localhost:8900");
         socket.current.on("getMessage",data =>{
             setarrivalMessage({
                 sender:data.senderId,
