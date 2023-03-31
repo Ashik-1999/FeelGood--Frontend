@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ReusedRequestDetails from '../ReusedComponents/ReusedRequestDetails'
 import Button from '../../button/Button'
-import axios from 'axios'
+import axios from '../../../utils/axios'
 
 function RequestDetails(props) {
   console.log(props)

@@ -5,7 +5,7 @@ import {AiOutlineSearch} from 'react-icons/ai'
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 import {CiCalendarDate} from 'react-icons/ci'
 import {BiCategoryAlt} from 'react-icons/bi'
-import axios from 'axios';
+import axios from '../../utils/axios';
 import CounselorLists from '../../pages/CounselorLists/CounselorLists';
 import Navbar from '../navbar/Navbar';
 import PageNotFound from '../PageNotFound';

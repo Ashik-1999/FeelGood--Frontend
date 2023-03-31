@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import axios from '../../../utils/axios'
 import { useLocation } from 'react-router-dom'
 
 import {GrClose} from 'react-icons/gr'

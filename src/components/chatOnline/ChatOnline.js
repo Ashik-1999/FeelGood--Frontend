@@ -1,5 +1,5 @@
 import { ConstructionOutlined } from '@mui/icons-material'
-import axios from 'axios'
+import axios from '../../utils/axios'
 import React, { useEffect, useState } from 'react'
 import './chatOnline.css'
 

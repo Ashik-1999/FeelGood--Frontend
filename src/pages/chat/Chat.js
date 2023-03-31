@@ -7,7 +7,7 @@ import Navbar from '../../components/navbar/Navbar'
 import AuthContext from '../../context/Userdata'
 import './Chats.css'
 import jwt_decode from "jwt-decode";
-import axios from 'axios'
+import axios from '../../utils/axios'
 import CounselorAuthContext from '../../context/CounselorContext';
 import {io, Socket} from 'socket.io-client'
 import {AiFillVideoCamera} from 'react-icons/ai'

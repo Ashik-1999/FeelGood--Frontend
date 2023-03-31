@@ -9,7 +9,7 @@ import AdminNavbar from '../../../components/Admin/adminNavbar/AdminNavbar'
 
 function RequestDetails() {
     const counselorId = useParams()
-    console.log(counselorId)
+    
   return (
     <div>
     <div className=''>

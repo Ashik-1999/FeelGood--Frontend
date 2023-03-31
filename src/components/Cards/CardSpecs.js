@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../button/Button'
 
 function CardSpecs(props) {
-    console.log(props,"propssssssssss")
+   
     return (
         <div>
             <div className="px-4 bg-white-500  md:w-[250px]  transform transition duration-500 hover:scale-110 ">
