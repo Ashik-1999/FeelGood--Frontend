@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import CounselorAuthContext from '../../../context/CounselorContext';
 import jwt_decode from "jwt-decode";
 import { AiFillCamera,  } from 'react-icons/ai'
-import axios from 'axios';
+import axios from '../../../utils/axios';
 import {RiDeleteBin6Line} from 'react-icons/ri'
 import Spinner from '../../spinner/Spinner';
 

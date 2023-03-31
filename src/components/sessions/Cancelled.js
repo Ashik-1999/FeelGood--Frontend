@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Cancelled(props) {
-    console.log(props.data)
   return (
     <div>
               <div className="flex flex-col">

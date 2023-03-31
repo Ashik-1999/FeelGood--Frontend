@@ -1,12 +1,10 @@
 import React, { useEffect, useState, useContext } from 'react'
 import {useNavigate} from 'react-router-dom'
-import axios from 'axios'
+import axios from '../../utils/axios'
 import AuthContext from '../../context/Userdata'
 import jwt_decode from 'jwt-decode'
-import moment from 'moment'
-import { AiOutlineConsoleSql } from 'react-icons/ai'
 import swal from 'sweetalert';
-import Spinner from '../spinner/Spinner'
+
 
 
 function Upcoming(props) {

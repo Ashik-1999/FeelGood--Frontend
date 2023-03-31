@@ -3,7 +3,7 @@ import React,{useEffect,useState,useContext} from 'react'
 import Upcoming from '../../components/sessions/Upcoming';
 import AuthContext from '../../context/Userdata'
 import jwt_decode from 'jwt-decode'
-import axios from 'axios'
+import axios from '../../utils/axios'
 import moment from 'moment'
 import Cancelled from '../../components/sessions/Cancelled';
 import Spinner from '../../components/spinner/Spinner';

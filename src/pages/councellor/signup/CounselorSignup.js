@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import Navbar from '../../../components/navbar/Navbar'
-import axios from 'axios'
+import axios from '../../../utils/axios'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import Button from '../../../components/button/Button'
