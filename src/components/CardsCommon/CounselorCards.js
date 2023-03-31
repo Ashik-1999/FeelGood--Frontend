@@ -6,7 +6,7 @@ import { NavLink, useNavigate } from 'react-router-dom'
 import Button from '../button/Button'
 import CardsCouns from '../Cards/CardsCouns'
 import {FcRight} from 'react-icons/fc'
-import { blue } from '@mui/material/colors'
+
 
 
 function CounselorCards() {
@@ -15,7 +15,6 @@ function CounselorCards() {
    const navigate = useNavigate()
 
    const slideLeft2 = () => {
-      console.log("clicked")
       var slider2 = document.getElementById('slider2')
       slider2.scrollLeft = slider2.scrollLeft - 500
    }
@@ -32,7 +31,6 @@ function CounselorCards() {
    },[])
    
    const viewDetails = (id) =>{
-      console.log(id,"ioddddddddd")
       navigate(`/counselor-details/${id}`)
    }
 
